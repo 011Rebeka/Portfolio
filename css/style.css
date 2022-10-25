@@ -1,0 +1,485 @@
+
+@import 'utilities.css';
+:root{
+    --primary:#3a9daa;
+    --dark:#0e0b0b;
+    --pure:#fdfefe;
+    --ternary:#b6b6b6;
+    --light:#f2f2f2;
+    --red:#990404;
+    --green: #358a6e;
+    --yellow: rgb(196, 199, 48);
+    --gray: #636060;
+    --paste: #95e9d4;
+    --blue: #0f353f;
+    
+
+}
+
+body {
+    font-family: 'Poppins';font-size: 17px;
+}
+
+
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/riya14.jpg);
+    height: 650px;
+    
+    background-size: auto;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
+}
+
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .navbar-brand{
+    color:var(--pure);
+    margin-right: 1.3rem ;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s;
+    padding: .5rem .5rem;
+    
+    
+    
+}
+
+header nav .navbar-brand:hover{
+    color:var(--dark);
+    background-color:var(--yellow);
+    
+    
+
+}
+
+header nav{
+    padding: 2rem;
+    color: var(--pure);
+}
+
+header nav .branding{
+    margin-right: 5rem;
+}
+
+
+.hero .right{
+    color:var(--pure);
+    margin-left: 11rem;
+    margin-right: 10rem;
+    
+    
+    
+    
+}
+ 
+.hero .right h4{
+    color:var(--green);
+    font-size: 1.2rem;
+    margin-bottom: -1rem;
+    
+     
+}
+.hero .right h1{
+    font-size: 3.5rem;
+    font-weight: 100;
+    line-height: 4rem;
+    
+
+
+    
+}
+.hero .right h1 span{
+    color:var(--green);
+    
+}
+.hero .right p{
+    font-size: small;
+    color:var(--ternary);
+    line-height: 1.9;
+    margin-bottom: 2rem;
+    
+    
+    
+   
+}
+
+
+.hero .left img{
+    width: 280px;
+    height: 350px;
+    margin-left: 10rem;
+    border-radius: 50%;
+    
+}
+
+
+section{
+    padding: 7rem 0;
+  
+}
+
+section .about .about-me-img{
+
+    height: 400px;
+    margin-left: -5rem;
+    
+}
+
+section .about h1 span{
+    color: var(--green);
+}
+
+section .about h3{
+    font-size: large;
+    font-weight: 200;
+
+}
+
+section .about p{
+    color: var(--gray);
+    font-size: 0.8rem;
+    font-family: Lato, sans-serif;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+section .about .social a{
+    margin-right: 1rem;
+    
+}
+
+
+   
+    
+
+
+.section-heading{
+    color:var(--dark);
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+}
+
+.section-heading span{
+    color: var(--green);
+}
+
+.section-heading + p{
+    color: var(--gray);
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+section.skill{
+    background: var(--light);
+}
+
+section.skill .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 3rem ;
+    grid-row-gap: 3rem ;
+   
+    
+
+}
+
+section.skill .card-wrapper .card{
+    background: var(--pure);
+    padding: 2rem 2rem;
+    position: relative;
+    text-align: center;
+
+}
+
+section.skill .card-wrapper .card img{
+    position: absolute;
+    top: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    
+
+ 
+}
+section.skill .card-wrapper .card h2{
+    font-size: medium;
+}
+section.skill .card-wrapper .card p{
+    font-family: 'Lato',sans-serif;
+    color: var(--ternary);
+}
+section.skill .card-wrapper .card:hover{
+    background: var(--paste);
+    cursor: pointer;
+    transition: all .4s;
+}
+
+section.skill .card-wrapper .card:hover p{
+    color: var(--dark);
+}
+
+section.art{
+    text-align: center;
+    font-family: 'Lato',sans-serif;
+    background-image: url(../images/download2.jfif);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
+    
+
+}
+
+section.art h1{
+    color: var(--dark);
+}
+
+section.art p{
+    color: var(--gray);
+    
+}
+
+section.picture .card-wrapper1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);  
+    grid-column-gap: 3rem ; 
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+    
+    
+   
+
+}
+
+    
+
+section.picture .card-wrapper1 .sketch{
+    background: rgb(244, 247, 242);
+    padding: 2rem 2rem;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+    
+
+}
+
+section.picture .card-wrapper1 .sketch img{
+    margin-bottom: 2rem;
+
+}
+
+section.picture .card-wrapper1 .sketch p{
+    font-size: smaller;
+    font-weight: lighter;
+    color: var(--gray);
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+section.picture .card-wrapper1 .sketch:hover{
+    background: rgb(199, 237, 241);
+    cursor: pointer;
+    transition: all .4s;
+}
+
+
+section.picture .card-wrapper1 .photography{
+    background: rgb(245, 247, 244);
+    padding: 2rem 2rem;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+   
+}
+
+section.picture .card-wrapper1 .photography img{
+    margin-bottom: 2rem;
+
+}
+
+section.picture .card-wrapper1 .photography p{
+    font-size: smaller;
+    font-weight: lighter;
+    color: var(--gray);
+    font-family: 'Lato', sans-serif;
+}
+
+section.picture .card-wrapper1 .photography:hover{
+    background: rgb(192, 233, 238);
+    cursor: pointer;
+    transition: all .4s;
+}
+
+
+section.contact{
+    background-color: rgb(255, 253, 253);
+    
+}
+
+
+
+section.contact h1{
+
+    color: rgb(54, 36, 219)
+}
+
+section.contact p{
+
+    color: rgb(30, 59, 77)
+}
+
+section.contact .contact{
+    height: 300px;
+    
+
+}
+
+
+
+
+input[type=text], [type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 2px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(84, 47, 248);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(87, 136, 228);
+  }
+  
+  
+  .contactform {
+    position: relative;    
+    border-radius: 50px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    z-index:2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:auto;
+    margin-top:3%;    
+    width: 80%;
+    animation-name: gradient;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;  
+      
+  }
+      
+  .contactform:hover { 
+   animation-name: gradient;
+   animation-duration: 15s;
+   animation-iteration-count: infinite; 
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      
+     
+  }
+  
+  
+  .column {
+    float: center;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+      
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .column, input[type=submit] {
+      width: auto;
+      margin-top:0;
+    }
+  }
+  
+  
+  @keyframes gradient {
+    20%   {background-color: #a5daf3;}
+    60%   {background-color: #95eeeb;}
+          
+  }
+  
+
+
+
+
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  strong {
+    font-weight: 700;
+  }
+  
+  /* ==== SIMPLE FOOTER ==== */
+  
+  footer {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+   
+    display: table;
+    width: 100vw;
+    height: 8rem;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Arial', sans-serif;
+    font-size: .875rem;
+  }
+  
+  .wrapper {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  footer small {
+    color: #ccc;
+    letter-spacing: .025rem;
+    margin-bottom: 1.5rem;
+    display: block;
+  }
+  
+  .footer-nav a {
+    color: #c43636;
+    text-decoration: none;
+    margin: 0 .5rem;
+    display: inline-block;
+  }
+  
+  .footer-nav a:hover {
+    color: #f26896;
+    transition: color .15s ease-in-out;
+  }
+  
